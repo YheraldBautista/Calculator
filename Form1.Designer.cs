@@ -86,6 +86,7 @@ namespace Calculator
             // 
             // btnOpSum
             // 
+            this.btnOpSum.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnOpSum.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpSum.Location = new System.Drawing.Point(360, 90);
             this.btnOpSum.Margin = new System.Windows.Forms.Padding(4);
@@ -93,11 +94,12 @@ namespace Calculator
             this.btnOpSum.Size = new System.Drawing.Size(107, 98);
             this.btnOpSum.TabIndex = 3;
             this.btnOpSum.Text = "+";
-            this.btnOpSum.UseVisualStyleBackColor = true;
+            this.btnOpSum.UseVisualStyleBackColor = false;
             this.btnOpSum.Click += new System.EventHandler(this.OperatorAction_Click);
             // 
             // btnOpRest
             // 
+            this.btnOpRest.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnOpRest.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpRest.Location = new System.Drawing.Point(360, 196);
             this.btnOpRest.Margin = new System.Windows.Forms.Padding(4);
@@ -105,7 +107,7 @@ namespace Calculator
             this.btnOpRest.Size = new System.Drawing.Size(107, 98);
             this.btnOpRest.TabIndex = 7;
             this.btnOpRest.Text = "-";
-            this.btnOpRest.UseVisualStyleBackColor = true;
+            this.btnOpRest.UseVisualStyleBackColor = false;
             this.btnOpRest.Click += new System.EventHandler(this.OperatorAction_Click);
             // 
             // btnNum6
@@ -146,6 +148,7 @@ namespace Calculator
             // 
             // btnOpMult
             // 
+            this.btnOpMult.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnOpMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpMult.Location = new System.Drawing.Point(360, 302);
             this.btnOpMult.Margin = new System.Windows.Forms.Padding(4);
@@ -153,7 +156,7 @@ namespace Calculator
             this.btnOpMult.Size = new System.Drawing.Size(107, 98);
             this.btnOpMult.TabIndex = 11;
             this.btnOpMult.Text = "*";
-            this.btnOpMult.UseVisualStyleBackColor = true;
+            this.btnOpMult.UseVisualStyleBackColor = false;
             this.btnOpMult.Click += new System.EventHandler(this.OperatorAction_Click);
             // 
             // btnNum3
@@ -194,6 +197,7 @@ namespace Calculator
             // 
             // btnOpDiv
             // 
+            this.btnOpDiv.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnOpDiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpDiv.Location = new System.Drawing.Point(360, 407);
             this.btnOpDiv.Margin = new System.Windows.Forms.Padding(4);
@@ -201,7 +205,7 @@ namespace Calculator
             this.btnOpDiv.Size = new System.Drawing.Size(107, 98);
             this.btnOpDiv.TabIndex = 15;
             this.btnOpDiv.Text = "/";
-            this.btnOpDiv.UseVisualStyleBackColor = true;
+            this.btnOpDiv.UseVisualStyleBackColor = false;
             this.btnOpDiv.Click += new System.EventHandler(this.OperatorAction_Click);
             // 
             // btnEqual
