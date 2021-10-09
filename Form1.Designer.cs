@@ -210,6 +210,7 @@ namespace Calculator
             // 
             // btnEqual
             // 
+            this.btnEqual.BackColor = System.Drawing.Color.DarkOrange;
             this.btnEqual.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEqual.Location = new System.Drawing.Point(246, 408);
             this.btnEqual.Margin = new System.Windows.Forms.Padding(4);
@@ -217,7 +218,7 @@ namespace Calculator
             this.btnEqual.Size = new System.Drawing.Size(107, 98);
             this.btnEqual.TabIndex = 14;
             this.btnEqual.Text = "=";
-            this.btnEqual.UseVisualStyleBackColor = true;
+            this.btnEqual.UseVisualStyleBackColor = false;
             this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // btnNum0
@@ -234,6 +235,7 @@ namespace Calculator
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.DarkOrange;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(16, 407);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4);
@@ -241,7 +243,7 @@ namespace Calculator
             this.btnClear.Size = new System.Drawing.Size(107, 98);
             this.btnClear.TabIndex = 12;
             this.btnClear.Text = "C";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // txtValue
